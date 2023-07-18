@@ -33,19 +33,17 @@ export default function Sidenav() {
       }
 
       const selectedIcon = {
-        backgroundColor: "pink",
+        backgroundColor: "rgb(59, 59, 92)",
         color: "white",
         boxShadow: "0 4px 8px 0 rgba(209, 209, 209, 0.2), 0 6px 20px 0 rgba(209, 209, 209, 0.19)"
       }
 
 
  return (
-    <section className="fixed hidden md:block md:w-60 h-[94%] left-3 rounded-xl shadow-lg overflow-auto bg-zinc-100">
-        
-        <div className="flex fixed z-50 bg-zinc-100 w-60 h-20 items-center justify-center">
+    <section className="fixed hidden lg:block lg:w-60 h-[94%] left-3 rounded-xl shadow-lg overflow-auto bg-zinc-100">
+        <Link href={"/"} className="flex fixed z-50 bg-zinc-100 w-60 h-20 items-center justify-center">
             <Image src={"/amongus.png"} alt="Picture of the author" width={30} height={50}/>
-
-        </div>
+        </Link>
         <div className="flex justify-center">
             <hr className="w-3/5 h-[1px] bg-gradient-to-r from-transparent via-zinc-300 to-transparent mt-20"/>
         </div>
