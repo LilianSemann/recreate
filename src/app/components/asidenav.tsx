@@ -41,11 +41,12 @@ export default function Sidenav() {
 
  return (
     <section className="fixed hidden lg:block lg:w-60 h-[94%] left-3 rounded-xl shadow-lg overflow-auto bg-zinc-100">
-        <Link href={"/"} className="flex fixed z-50 bg-zinc-100 w-60 h-20 items-center justify-center">
+        <Link href={"/"} className="flex fixed z-50 w-60 h-20 items-center justify-center gap-3 transform hover:scale-105 transition duration-300">
             <Image src={"/amongus.png"} alt="Picture of the author" width={30} height={50}/>
+            <p className='font-semibold'>Lils' Company</p>
         </Link>
         <div className="flex justify-center">
-            <hr className="w-3/5 h-[1px] bg-gradient-to-r from-transparent via-zinc-300 to-transparent mt-20"/>
+            <hr className="w-4/6 h-[0.099rem] bg-gradient-to-r from-transparent via-zinc-200 to-transparent mt-[5.5rem]"/>
         </div>
         
         <div className="flex flex-col p-5">

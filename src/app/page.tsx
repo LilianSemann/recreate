@@ -1,4 +1,5 @@
 import Sidenav from "./components/asidenav"
+import Footer from "./components/footer"
 import Header from "./components/header"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <p>Palmeiras não tem mundial!</p>
         <p>Palmeiras não tem mundial!</p>
       </div>
+      <Footer/>
     </section>
   )
 }
