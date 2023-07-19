@@ -9,6 +9,7 @@ export default function Tables() {
       <Header/>
       <Sidenav/>
       <div className="flex lg:w-9/12 lg:right-5 absolute w-full top-24 flex-col bg-white rounded-xl p-5 shadow-lg">
+        <h1 className="font-semibold p-4">Authors Table</h1>
         <Table/>
       </div>
       <Footer/>
