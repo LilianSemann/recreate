@@ -29,13 +29,13 @@ export default function Header() {
             </div>
 
             <div className="flex justify-end items-center absolute right-4 gap-3">
-                <div className="bg-white flex items-center border border-zinc-300 rounded-lg h-10 text-[0.9em]">
+                <div className="bg-white flex items-center border border-zinc-300 rounded-lg h-10 text-[0.9em] w-auto">
                     <BiSearchAlt className="w-[2.63rem] h-[2.63rem] p-2"/>
-                    <input type="text" placeholder="Type here..." className="p-2 w-25 bg-transparent outline-none"/>
+                    <input type="text" placeholder="Type here..." className="p-2 bg-transparent outline-none"/>
                 </div>
                 <button className="flex gap-1">
                     <BsFillPersonFill className="w-4 h-4"/>
-                    <span className="text-sm font-semibold">Sign in</span>
+                    <span className="text-sm font-semibold hidden md:block">Sign in</span>
                 </button>
                 <button>
                     <IoMdSettings className="w-4 h-4"/>
