@@ -1,4 +1,5 @@
 import Sidenav from "../components/asidenav"
+import Footer from "../components/footer"
 import Header from "../components/header"
 
 export default function Dashboard() {
@@ -7,11 +8,9 @@ export default function Dashboard() {
       <Header/>
       <Sidenav/>
       <div className="flex lg:w-9/12 lg:right-5 absolute w-full top-24 justify-center flex-col bg-white rounded-xl p-5 shadow-lg">
-        <p>Palmeiras não tem mundial!</p>
-        <p>Palmeiras não tem mundial!</p>
-        <p>Palmeiras não tem mundial!</p>
-        <p>Palmeiras não tem mundial!</p>
+        <p>DASHBOARD</p>
       </div>
+      <Footer/>
     </section>
   )
 }
